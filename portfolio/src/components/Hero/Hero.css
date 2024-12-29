@@ -1,0 +1,131 @@
+.hero-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    height: 988px;
+    top: 84px;
+    background: linear-gradient(#3c3c38, #1a1a19);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #4facfe;
+    margin-bottom: 20px;
+}
+
+.hero-p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    display: inline;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition effect */
+}
+
+.hero-p.fade-out {
+    opacity: 0; /* Fully transparent during fade-out */
+}
+
+.hero-p.fade-in {
+    opacity: 1; /* Fully visible during fade-in */
+}
+
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.hero-btn.primary {
+    background: transparent;
+    border: 2px solid #4facfe;
+    color: #4facfe;
+}
+
+.hero-btn.secondary {
+    background: transparent;
+    border: 2px solid #4facfe;
+    color: #4facfe;
+}
+
+.hero-btn.primary:hover {
+    background: #4facfe;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.hero-btn.secondary:hover {
+    background: #4facfe;
+    color: white;
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-p {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-text h1 {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .hero-p {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-buttons {
+    animation: fadeIn 2.5s ease-in-out;
+  }
+
+.carousel{
+    display: flex;
+    width: auto;
+}

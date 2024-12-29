@@ -1,0 +1,24 @@
+Home Page:-
+	Hero Section
+	About Me --(1)
+	Navigation Bar:-
+		Portfolio -- (2)
+		About 
+		Contact -- (3)
+	
+(1) About Me Page:-
+	Introduction 
+	Skills
+	Hobbies/Personal Interests
+
+(2) Portfolio Page:-
+	Project Showcase
+	Filter or categories
+	Resume/CV Page
+	Blog (if any)
+	
+(3) Contact Page:- 
+	Contact Form
+	Social Media Links
+	Other Contact Info
+	

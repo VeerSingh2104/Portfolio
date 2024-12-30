@@ -1,5 +1,5 @@
 .navbar-background-container {
-    background-color: #7d707064;
+    background-color:  #181818;
     width: 100%;
     top: 0;
     left: 0;
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    padding: 20px 20px;
+    padding: 15px 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.477);
     z-index: 1000;
     transition: all 0.3s ease-in-out;
@@ -18,14 +18,14 @@
     font-size: 1.5rem;
     color: aliceblue;
     text-decoration: none;
-    margin-left: 150px;
+    margin-left: 20px;
 }
 
 .navbar-items {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 50px;
     justify-content: flex-end;  
     white-space: nowrap;
 }

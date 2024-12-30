@@ -1,11 +1,11 @@
 .hero-container {
     width: 100%;
-    position: fixed;
+    position:absolute;
     left: 0;
-    height: 988px;
-    top: 84px;
+    height:662px;
+    top: 72px;
     background: linear-gradient(#3c3c38, #1a1a19);
-    color: #fff;
+    /* color: #fff; */
     display: flex;
     align-items: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     color: #4facfe;
@@ -27,7 +27,7 @@
 
 .hero-p {
     font-family: "Nunito", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #f0f0f0;
     display: inline;
     line-height: 1.6;
@@ -52,8 +52,8 @@
 }
 
 .hero-btn {
-    padding: 12px 30px;
-    font-size: 1rem;
+    padding: 10px 20px;
+    font-size: 0.7rem;
     font-weight: bold;
     border: none;
     border-radius: 25px;

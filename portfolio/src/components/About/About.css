@@ -1,3 +1,12 @@
 .about-h1{
     color: azure;
+    margin-top: 736px;
+    top: 0;
+    background: linear-gradient(#3c3c38, #1a1a19);
+    width: 100%;
+    position:absolute;
+    left: 0;
+    height: 662px;
+    display: flex;
+    left: 0;
 }
